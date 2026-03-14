@@ -1,6 +1,6 @@
 # Car Classification with YOLO-Cls
 
-This coursework implements a **YOLOv8** classification model to identify 10 different car rim types by fine-tuning using a manually created dataset of 150 images, over 10 different rim types. It includes automated preprocessing to clean filenames, resize images to 224x224, and split data for robust evaluation.
+This coursework implements a **YOLOv8** classification model to identify 10 different car rim types by fine-tuning using a manually created dataset of 150 images of 10 total different rim types. It includes automated preprocessing to clean filenames, resize images to 224x224, and split data for robust evaluation.
 
 ### 1. Prerequisites
 ```bash
@@ -8,7 +8,6 @@ python -m venv .venv
 source .venv/bin/activate  # macOS/Linux
 # or
 .venv\Scripts\activate     # Windows
-
 ```
 
 ### 2. Installation
