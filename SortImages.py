@@ -14,7 +14,7 @@ def get_index_label(path):
     return [int(c) if c.isdigit() else c for c in re.split(r'(\d+)', text)]
 
 def prepare_dataset():
-    # Don't add duplicates
+    # Don't add duplicate sets of files
     if target_dir.exists():
         shutil.rmtree(target_dir)
     
