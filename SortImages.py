@@ -4,7 +4,7 @@ from pathlib import Path
 from PIL import Image
 
 source_dir = Path('Coursework 2 Dataset/Car Dataset Altered')
-target_dir = Path('Yolo Classification Dataset')
+target_dir = Path('Sorted Classification Dataset')
 
 train_split, val_split = 10, 13
 target_size = (224, 224)

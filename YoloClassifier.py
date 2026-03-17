@@ -4,7 +4,7 @@ from ultralytics import YOLO
 model = YOLO('yolov8n-cls.pt') 
 
 results = model.train(
-    data='Yolo Classification Dataset',
+    data='Sorted Classification Dataset',
     name='CarRimClassifier',
     epochs=25,
     imgsz=224,
