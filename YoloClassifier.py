@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 
-# This is the pretrained nano classification model.
-model = YOLO('yolov8n-cls.pt') 
+# This is the pretrained small [!nano] classification model.
+model = YOLO('yolov8s-cls.pt') 
 
 results = model.train(
     data='Sorted Classification Dataset',
@@ -13,8 +13,12 @@ results = model.train(
     # These are our data augmentation hyperparameters
     augment=True,
     fliplr=0.5,
-    mosaic=1.0,
+    shear=0.25,
+    translate=0.1,
     mixup=0.25,
+
+    # This one is very important to us, as the 3-jaw chuck doesn't fix rotation
+    degrees=30,
 
     # These are the learning rate scheduler hyperparameters
     lr0=0.01,

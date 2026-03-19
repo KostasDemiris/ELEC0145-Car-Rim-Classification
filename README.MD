@@ -41,6 +41,7 @@ Then, run each classifier model training script. Training results, including the
 python YoloClassifier.py
 python EfficientNetClassifier.py
 python BasicCnnClassifier.py
+python ResNetClassifier.py
 ```
 
 This may take a variable amount of time based on your computer's specifications...
