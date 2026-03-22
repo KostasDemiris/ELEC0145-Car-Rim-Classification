@@ -21,7 +21,7 @@ num_workers = 0
 
 
 class_num = 10
-epochs = 25
+epochs = 10
 image_size = 224
 batch_size = 6
 

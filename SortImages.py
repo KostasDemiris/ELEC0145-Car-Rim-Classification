@@ -6,7 +6,7 @@ from PIL import Image
 source_dir = Path('Coursework 2 Dataset/Car Dataset Altered')
 target_dir = Path('Sorted Classification Dataset')
 
-train_split, val_split = 10, 13
+train_split, val_split = 9, 12
 target_size = (224, 224)
 
 def get_index_label(path):

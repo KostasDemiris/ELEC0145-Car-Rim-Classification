@@ -6,7 +6,7 @@ from torchvision import datasets, transforms
 from torch.optim.lr_scheduler import CosineAnnealingLR
 import os
 
-ResNet_variant = 'resnet18'  # there's also resnet34, resnet50, resnet101, resnet152
+ResNet_variant = 'resnet34'  # there's also resnet18, resnet50, resnet101, resnet152 - this is our middle ground
 data_dir       = 'Sorted Classification Dataset'
 output_dir     = 'runs/classify/CarRimClassifier_resnet'
 
