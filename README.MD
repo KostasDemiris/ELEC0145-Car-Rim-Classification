@@ -1,6 +1,6 @@
 # Task 1.1: Car Rim Classification
 
-This coursework implements a series of classification models to identify 10 different car rim types by fine-tuning using a manually created dataset of 150 images of 10 total different rim types. It includes automated preprocessing to clean filenames, resize images to 224x224, and split data for robust evaluation. Currently, there are three models being evaluated, being a **YOLOv8** classifier, **EfficientNet** classifier, **ResNet** classifier, and a very simple **pytorch** convolutional neural network.
+This coursework implements a series of classification models to identify 10 different car rim types by fine-tuning using a manually created dataset of 150 images of 10 total different rim types. It includes automated preprocessing to clean filenames, resize images to 224x224, and split data for robust evaluation. Currently, there are four models being evaluated, being a **YOLOv8** classifier, **EfficientNet** classifier, **ResNet** classifier, and a very simple **pytorch** convolutional neural network.
 
 ### 1. Prerequisites
 ```bash
